@@ -10,11 +10,13 @@ sets the default editor to TextMate.
 
 To setup the bash settings:
 
-* Create a directory in your home directory e.g. 
+    # Create a directory in your home directory e.g. 
     mkdir ~/bash-settings
-* Grab the code:
+
+    #Grab the code:
     git clone url
-* Create a symlink to the appropriate settings file in your home directory
+    
+    # Create a symlink to the appropriate settings file in your home directory
     # In OS X
     ln -s ~/bash-settings/bash_profile_osx ~/.bash_profile
     
